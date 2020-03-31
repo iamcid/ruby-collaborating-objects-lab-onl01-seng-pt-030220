@@ -8,7 +8,7 @@ class MP3Importer
   
   def files
     files = []
-    
+    Dir.new{|
   end
   
   def import(list_of_filenames)
